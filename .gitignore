@@ -1,0 +1,6 @@
+# Ignorar carpetas generadas por npm
+/node_modules
+/dist
+
+# Ignorar archivo de configuración local
+.env
