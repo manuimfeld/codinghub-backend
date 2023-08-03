@@ -88,7 +88,7 @@ const authController = {
       const token = await generateToken(user.username, user._id);
       const data = {
         token,
-        user: user,
+        /* user: user, */
         message: 'Sesión iniciada correctamente',
       };
       res.json(data);
